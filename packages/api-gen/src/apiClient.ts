@@ -13,8 +13,8 @@ export function getAdminApiClient() {
         grant_type: "password",
         client_id: "administration",
         scopes: "write",
-        username: process.env.SHOPWARE_ADMIN_USERNAME || "",
-        password: process.env.SHOPWARE_ADMIN_PASSWORD || "",
+        username: process.env.ONLISHOP_ADMIN_USERNAME || "",
+        password: process.env.ONLISHOP_ADMIN_PASSWORD || "",
       },
     });
   }

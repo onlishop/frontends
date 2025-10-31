@@ -165,7 +165,7 @@
 
 - [#534](https://github.com/onlishop/frontends/pull/534) [`6170dca`](https://github.com/onlishop/frontends/commit/6170dca220f4b33c4dcb6fd1c3172ad931a47c75) Thanks [@patzick](https://github.com/patzick)! - Command `generate` has been splitted and doing only transformation from json to d.ts file
 
-- [#564](https://github.com/onlishop/frontends/pull/564) [`93a6048`](https://github.com/onlishop/frontends/commit/93a6048ee28c1975750ef6911f303ea095cb9941) Thanks [@patzick](https://github.com/patzick)! - Added `apiType` option in `loadSchema` command. With `SHOPWARE_ADMIN_USERNAME` and `SHOPWARE_ADMIN_PASSWORD` env variables we can now authorize Admin API schema.
+- [#564](https://github.com/onlishop/frontends/pull/564) [`93a6048`](https://github.com/onlishop/frontends/commit/93a6048ee28c1975750ef6911f303ea095cb9941) Thanks [@patzick](https://github.com/patzick)! - Added `apiType` option in `loadSchema` command. With `ONLISHOP_ADMIN_USERNAME` and `ONLISHOP_ADMIN_PASSWORD` env variables we can now authorize Admin API schema.
 
   example:
 

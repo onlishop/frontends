@@ -20,8 +20,8 @@ const ADMIN_API_ENDPOINT = `/api/${SCHEMA_ENDPOINT}`;
  *
  * For `admin` API:
  * - OPENAPI_JSON_URL
- * - SHOPWARE_ADMIN_USERNAME
- * - SHOPWARE_ADMIN_PASSWORD
+ * - ONLISHOP_ADMIN_USERNAME
+ * - ONLISHOP_ADMIN_PASSWORD
  *
  */
 export async function loadSchema(args: {
@@ -53,8 +53,8 @@ export async function loadSchema(args: {
   const OPENAPI_JSON_URL = process.env.OPENAPI_JSON_URL;
   const requiredEnvVars = [];
   if (isAdminApi) {
-    requiredEnvVars.push("SHOPWARE_ADMIN_USERNAME");
-    requiredEnvVars.push("SHOPWARE_ADMIN_PASSWORD");
+    requiredEnvVars.push("ONLISHOP_ADMIN_USERNAME");
+    requiredEnvVars.push("ONLISHOP_ADMIN_PASSWORD");
   } else {
     requiredEnvVars.push("OPENAPI_ACCESS_KEY");
   }

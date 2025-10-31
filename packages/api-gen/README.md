@@ -224,8 +224,8 @@ OPENAPI_JSON_URL="https://your-shop-instance.onlishop.store"
 ## This one needed to fetch store API schema
 OPENAPI_ACCESS_KEY="YOUR_STORE_API_ACCESS_KEY"
 ## These two needed to fetch admin API schema
-SHOPWARE_ADMIN_USERNAME="my@username.com"
-SHOPWARE_ADMIN_PASSWORD="my-password"
+ONLISHOP_ADMIN_USERNAME="my@username.com"
+ONLISHOP_ADMIN_PASSWORD="my-password"
 ```
 
 ### `validateJson`
